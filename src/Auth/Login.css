@@ -1,0 +1,14 @@
+.login_cover {
+    background-image: url(/public/images/login_cover.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.login_cover::before {
+    content:"";
+    position: absolute;
+    inset: 0;
+    background-color: rgb(63, 73, 105);
+    opacity: 50%;
+    z-index: 10;
+}
