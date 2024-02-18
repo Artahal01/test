@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background: #000000; 
+    background: -webkit-linear-gradient(to right, #1a1a1a, #000000);
+    background: linear-gradient(to right, #1a1a1a, #000000);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header {
+    margin-bottom:-34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-logo {
+    position: relative;
+    display: flex;
+    color: whitesmoke;
+    justify-self: start;
+    font-size: 2em;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    animation: appere 1.5s ease-in;
+
+}
+
+
+@keyframes appere {
+    from {
+        height: 0;
+        opacity: 0%;
+    }
+    to {
+        height: 100%;
+        opacity: 100%;
+    }
+}
+
+
+nav {
+    width: 40vw;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 23px;
+    margin-left: 5px;
+    margin-right: 5px;
+    z-index: 1;
+    border: 0.5px solid rgb(171, 158, 158);
+    border-radius: 5px;
+}
+nav a:hover {
+    background: #000000; 
+    background: -webkit-linear-gradient(to right, #464545, #101010);
+    background: linear-gradient(to right, #383535, #0c0c0c);
+    border-radius: 5px;
+    transition: .5s;
+}

@@ -120,7 +120,7 @@ const Register = () => {
                   </button>
                 </div>
                 <Link to={"/login"} className="text-center">
-                  J'ai deja un compte
+                  J'ai déja un compte
                 </Link>
               </form>
             </div>
